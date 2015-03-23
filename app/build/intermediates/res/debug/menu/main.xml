@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.dailyselfie.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item 
+        	android:id="@+id/capture_selfie"
+        	android:visible="true"
+        	android:icon="@drawable/ic_launcher"
+        	android:title="@string/capture_selfie"
+        	app:showAsAction="always"/>
+
+</menu>
+<!-- From: file:/Users/akylkerimbekov/AndroidStudioProjects/DailySelfie-master-2/app/src/main/res/menu/main.xml -->
